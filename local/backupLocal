@@ -1,0 +1,24 @@
+cd /home/xudi/backup/linux64
+git pull
+git reset --hard HEAD^0
+
+cd /home/xudi/backup/cpp
+git pull
+git reset --hard HEAD^0
+
+cd /home/xudi/backup/python/workspace
+git pull
+git reset --hard HEAD^0
+
+cd /media/xudi/coding/linux/cpp
+git pull
+git reset --hard HEAD^0
+
+cd /media/xudi/coding/linux/linux64
+git pull
+git reset --hard HEAD^0
+
+cd /media/xudi/coding/linux/config
+git pull
+git reset --hard HEAD^0
+

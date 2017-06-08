@@ -1,0 +1,1 @@
+/quant/bin/histrun -realtime 0 -futureMode 1 -tick 0x0f0f0000 -log /quant/config/LogManager.conf -comSet /quant/config/histrun/autoBackTest/0/commoditySet.csv -config /quant/config/histrun/autoBackTest/0/test.config

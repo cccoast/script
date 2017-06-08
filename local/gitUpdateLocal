@@ -1,0 +1,24 @@
+#!/bin/sh
+a=`date`
+
+cd /home/xudi/cpp
+git add -A
+git commit -m "$a"
+
+cd /home/xudi/workspace
+git add -A
+git commit -m "$a"
+
+cd /quant/code/linux64
+git add -A
+git commit -m "$a"
+
+cd /quant/code/linux64/MemroyDataServer
+git add -A
+git commit -m "$a"
+
+cd /quant/config
+git add -A
+git commit -m "$a"
+
+

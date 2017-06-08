@@ -1,0 +1,1 @@
+rdb --command json --db 4 "D:/Program Files/Redis/dump.rdb"

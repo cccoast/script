@@ -1,0 +1,31 @@
+#!/bin/sh
+a=`date`
+
+cd /home/xudi/cpp
+git add -A
+git commit -m "$a"
+git push -u origin master
+
+cd /quant/code/linux64
+git add -A
+git commit -m "$a"
+git push -u origin master
+
+cd /quant/config
+git add -A
+git commit -m "$a"
+git push -u aliyun master
+
+cd $coding_path
+cd generate_data_block
+git add -A
+git commit -m "$a"
+git push -u aliyun master
+
+cd $coding_path
+cd future_mysql
+git add -A
+git commit -m "$a"
+git push -u aliyun master
+
+

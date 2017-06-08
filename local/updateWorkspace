@@ -1,0 +1,3 @@
+cd /quant/code/linux64
+cbp2make -in xdd.workspace -out workspace.makefile
+cbp2make -list -in cbps.list

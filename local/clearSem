@@ -1,0 +1,1 @@
+ipcs -s | awk -F ' ' '{if($1>0&&$3~/xudi/) print $1}' | xargs -I {} ipcrm -S {}
